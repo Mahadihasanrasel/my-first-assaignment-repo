@@ -9,6 +9,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
 }
 .banner-text >h2{
     color: #FFF;
@@ -19,6 +20,7 @@ font-size: 72px;
 font-style: normal;
 font-weight: 900;
 line-height: 95px;
+
 }
 .banner{
     background-image:url(../image/Banner\ Image.png);
@@ -26,7 +28,45 @@ line-height: 95px;
 height: 600px;
 flex-shrink: 0;
 border-radius: 16px;
+margin: 0 auto;
+}
+/* styles about banner2 */
+.banner2-text >h1{
+    color: #F00;
 
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.banner2-text >h2{
+    color: #F00;
 
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.banner2-h3{
+    color: #070211;
+
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.vector{
+    width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+margin: 0 auto;
 
 }
