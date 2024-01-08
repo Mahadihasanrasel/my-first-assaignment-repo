@@ -10,6 +10,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 
+
+
 }
 .banner-text >h2{
     color: #FFF;
@@ -69,4 +71,67 @@ fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 margin: 0 auto;
 
+}
+/* styles about footer  */
+.footer{
+    width: 100%;
+padding: 20px;
+flex-shrink: 0;
+background: #070211;
+padding-right: 100%;
+
+
+}
+.footer-text{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+/* padding: 120px 1085px 409px 140px; */
+
+}
+.footer-text2{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
+/* padding: 120px 275px 409px 1114px; */
+
+}
+.footer-image img{
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+}
+.footer-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.footer-image{
+    display: flex;
+    width: 100%;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+    margin: 20px auto;
+}
+.footer-top2{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+justify-content: space-between;
 }
